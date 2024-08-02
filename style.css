@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.display-flex{
+    display: flex;
+}
+.nav-logo img{
+    width: 10%;
+}
+#header-part{
+    background-color: black;
+    color: white;
+}
+.header-nav{
+    border: 2px solid red;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+.nav-li > li{
+    border: 2px solid greenyellow;
+    list-style: none;
+    padding: 1rem;
+    text-decoration: none;
+}
